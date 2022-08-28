@@ -1,84 +1,69 @@
-*{
-font-family: "Poppins";
+* {
+    font-family: "Poppins";
     margin: 0px;
 }
-nav.navbar-container{
-display: flex;
-flex-wrap: wrap;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-margin:2em 3em;
+
+nav.navbar-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 3em;
 }
-img.logo{
+
+img.logo {
     height: 2.7em;
 }
-ul.list{
+
+ul.list {
     display: flex;
-flex-wrap: wrap;
-flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
-li.list-item{
+
+li.list-item {
     list-style-type: none;
-font-size: 20px;
-font-weight: 800;
-color: #6e6c6c;
-margin-left: 2em;
+    font-size: 20px;
+    font-weight: 800;
+    color: #6e6c6c;
+    margin-left: 2em;
 }
-li.list-item:hover{
- color: #1f1f1f;
+
+li.list-item:hover {
+    color: #1f1f1f;
 }
-.nav-button{
-block-size: 2em;
-padding: 0em 2em;
-color: #ffffff;
-border-radius: 7px;
-font-size: 20px;
-background-color: #5A20CB;
+
+.nav-button {
+    block-size: 2em;
+    padding: 0em 2em;
+    color: #ffffff;
+    border-radius: 7px;
+    font-size: 20px;
+    background-color: #5A20CB;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
 }
-.left-container{
+
+.left-container {
     margin-top: 7em;
 }
-h1.heading-text{
-font-size: 2.8em;
+
+h1.heading-text {
+    font-size: 2.8em;
 }
-span{
+
+span {
     color: #3a0f92;
 }
-p.description{
-    margin:1em 0em;
-font-size: 1em;
+
+p.description {
+    margin: 1em 0em;
+    font-size: 1em;
 }
-@media screen and (max-width : 1264px) {
-    nav.navbar-container{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-
-    
-        }
-        ul.list{
-           margin: 1em 0em;
-        
-        }
-        .banner-container{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-        margin-top: -2em;
-           align-items: center;
-        }
-        li.list-item{
-            font-size: 1.2em;
-            margin-right: 0.2em;
-        }
-
-    }
